@@ -92,7 +92,7 @@ importers:
       '@types/fs-extra': 9.0.13
       '@types/hosted-git-info': 3.0.2
       '@types/is-ci': 3.0.0
-      '@types/js-yaml': 4.0.3
+      '@types/js-yaml': 4.0.5
       '@types/semver': 7.3.8
       7zip-bin: ~5.1.1
       async-exit-hook: ^2.0.1
@@ -169,7 +169,7 @@ importers:
       '@types/fs-extra': 9.0.13
       '@types/hosted-git-info': 3.0.2
       '@types/is-ci': 3.0.0
-      '@types/js-yaml': 4.0.3
+      '@types/js-yaml': 4.0.5
       '@types/semver': 7.3.8
       dmg-builder: link:../dmg-builder
       electron-builder-squirrel-windows: link:../electron-builder-squirrel-windows
@@ -180,7 +180,7 @@ importers:
       '@types/debug': ^4.1.6
       '@types/fs-extra': ^9.0.11
       '@types/is-ci': 3.0.0
-      '@types/js-yaml': 4.0.3
+      '@types/js-yaml': 4.0.5
       '@types/source-map-support': 0.5.4
       7zip-bin: ~5.1.1
       app-builder-bin: 3.7.1
@@ -218,7 +218,7 @@ importers:
     devDependencies:
       '@types/cross-spawn': 6.0.2
       '@types/is-ci': 3.0.0
-      '@types/js-yaml': 4.0.3
+      '@types/js-yaml': 4.0.5
       '@types/source-map-support': 0.5.4
 
   packages/builder-util-runtime:
@@ -237,7 +237,7 @@ importers:
   packages/dmg-builder:
     specifiers:
       '@types/fs-extra': 9.0.13
-      '@types/js-yaml': 4.0.3
+      '@types/js-yaml': 4.0.5
       app-builder-lib: workspace:*
       builder-util: workspace:*
       builder-util-runtime: workspace:*
@@ -257,7 +257,7 @@ importers:
       dmg-license: 1.0.10
     devDependencies:
       '@types/fs-extra': 9.0.13
-      '@types/js-yaml': 4.0.3
+      '@types/js-yaml': 4.0.5
       temp-file: 3.4.0
 
   packages/electron-builder:
@@ -363,7 +363,7 @@ importers:
   packages/electron-updater:
     specifiers:
       '@types/fs-extra': 9.0.13
-      '@types/js-yaml': 4.0.3
+      '@types/js-yaml': 4.0.5
       '@types/lodash.escaperegexp': 4.1.6
       '@types/lodash.isequal': 4.5.5
       '@types/semver': ^7.3.6
@@ -385,7 +385,7 @@ importers:
       semver: 7.3.5
     devDependencies:
       '@types/fs-extra': 9.0.13
-      '@types/js-yaml': 4.0.3
+      '@types/js-yaml': 4.0.5
       '@types/lodash.escaperegexp': 4.1.6
       '@types/lodash.isequal': 4.5.5
 
@@ -2672,10 +2672,6 @@ packages:
     dependencies:
       jest-diff: 26.6.2
       pretty-format: 26.6.2
-    dev: true
-
-  /@types/js-yaml/4.0.3:
-    resolution: {integrity: sha512-5t9BhoORasuF5uCPr+d5/hdB++zRFUTMIZOzbNkr+jZh3yQht4HYbRDyj9fY8n2TZT30iW9huzav73x4NikqWg==}
     dev: true
 
   /@types/js-yaml/4.0.5:
@@ -8993,6 +8989,7 @@ packages:
   /slice-ansi/3.0.0:
     resolution: {integrity: sha512-pSyv7bSTC7ig9Dcgbw9AuRNUb5k5V6oDudjZoMBSr13qpLBG7tB+zgCkARjq7xIUgdz5P1Qe8u+rSGdouOOIyQ==}
     engines: {node: '>=8'}
+    requiresBuild: true
     dependencies:
       ansi-styles: 4.3.0
       astral-regex: 2.0.0
