@@ -27,7 +27,7 @@ importers:
       path-sort: 0.1.0
       prettier: 2.3.2
       replace-in-file: 6.2.0
-      source-map-support: 0.5.19
+      source-map-support: 0.5.21
       ts-jsdoc: 3.2.2
       typescript: 4.3.5
       typescript-json-schema: 0.51.0
@@ -57,7 +57,7 @@ importers:
       path-sort: 0.1.0
       prettier: 2.3.2
       replace-in-file: 6.2.0
-      source-map-support: 0.5.19
+      source-map-support: 0.5.21
       ts-jsdoc: 3.2.2_typescript@4.3.5
       typescript: 4.3.5
       typescript-json-schema: 0.51.0
@@ -3906,6 +3906,7 @@ packages:
   /color-convert/2.0.1:
     resolution: {integrity: sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==}
     engines: {node: '>=7.0.0'}
+    requiresBuild: true
     dependencies:
       color-name: 1.1.4
 
@@ -3914,6 +3915,7 @@ packages:
 
   /color-name/1.1.4:
     resolution: {integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==}
+    requiresBuild: true
 
   /colorette/2.0.16:
     resolution: {integrity: sha512-hUewv7oMjCp+wkBv5Rm0v87eJhq4woh5rSR+42YSQJKecCqgIqNkZ6lAlQms/BwHPJA5NKMRlpxPRv0n8HQW6g==}
@@ -5153,6 +5155,7 @@ packages:
 
   /emoji-regex/8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
+    requiresBuild: true
 
   /end-of-stream/1.4.4:
     resolution: {integrity: sha512-+uw1inIHVPQoaVuHzRyXd21icM+cnt4CzD5rW+NC1wjOUSTOs+Te7FOv7AhN7vS9x/oIyhLP5PR1H+phQAHu5Q==}
@@ -8993,6 +8996,7 @@ packages:
   /slice-ansi/3.0.0:
     resolution: {integrity: sha512-pSyv7bSTC7ig9Dcgbw9AuRNUb5k5V6oDudjZoMBSr13qpLBG7tB+zgCkARjq7xIUgdz5P1Qe8u+rSGdouOOIyQ==}
     engines: {node: '>=8'}
+    requiresBuild: true
     dependencies:
       ansi-styles: 4.3.0
       astral-regex: 2.0.0
@@ -9075,13 +9079,6 @@ packages:
       resolve-url: 0.2.1
       source-map-url: 0.4.1
       urix: 0.1.0
-    dev: true
-
-  /source-map-support/0.5.19:
-    resolution: {integrity: sha512-Wonm7zOCIJzBGQdB+thsPar0kYuCIzYvxZwlBa87yi/Mdjv7Tip2cyVbLj5o0cFPN4EVkuTwb3GDDyUx2DGnGw==}
-    dependencies:
-      buffer-from: 1.1.2
-      source-map: 0.6.1
     dev: true
 
   /source-map-support/0.5.21:
@@ -9588,7 +9585,7 @@ packages:
       chalk: 4.1.2
       doctrine: 3.0.0
       fs-extra: 10.0.0
-      source-map-support: 0.5.19
+      source-map-support: 0.5.21
       typescript: 4.3.5
     dev: true
 
