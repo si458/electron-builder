@@ -1,3 +1,12 @@
+# [](https://github.com/electron-userland/electron-builder/compare/v22.14.12...v) (2022-01-07)
+
+
+### Bug Fixes
+
+* use junction in windows to solve Error: EPERM: operation not per… ([#6529](https://github.com/electron-userland/electron-builder/issues/6529)) ([f7b3869](https://github.com/electron-userland/electron-builder/commit/f7b386986ec30f7e4cd3e3f68e078a773940a51c))
+
+
+
 # [](https://github.com/electron-userland/electron-builder/compare/v22.14.11...v) (2021-12-31)
 
 
